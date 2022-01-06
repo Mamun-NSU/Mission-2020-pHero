@@ -1,43 +1,40 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 section {
   margin-bottom: 30px;
 }
 .banner-section {
-  height: 250px;
-  width: 80%;
-  margin: 0 auto;
-  border: 5px solid green;
-  display: flex;
-}
-.mission-section {
   height: 400px;
   width: 80%;
   margin: 0 auto;
-  border: 5px solid black;
+  display: flex;
 }
-.develop-section {
-  height: 250px;
+.mission-section {
+  height: 450px;
   width: 80%;
   margin: 0 auto;
-  border: 5px solid blue;
+}
+.develop-section {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
 }
 .community-section {
-  height: 250px;
+  height: 400px;
   width: 80%;
   margin: 0 auto;
-  border: 5px solid purple;
   display: flex;
 }
 .footer-section {
   height: 100px;
   text-align: center;
   color: white;
-  background-color: black;
   padding: 20px 0px 10px;
+  background-color: black;
 }
 .coloredText {
   color: steelblue;
@@ -52,32 +49,32 @@ section {
   text-decoration: none;
   color: white;
   background-color: steelblue;
-  padding: 10px 30px;
-  margin: 0px;
+  padding: 15px 30px;
+  margin: 10px 0px;
   border-radius: 5px;
   font-weight: 900;
 }
 .text-subSection {
   width: 60%;
-  border: 5px solid red;
+  margin: 30px;
 }
 .image-subSection {
   width: 40%;
-  border: 5px solid red;
 }
 .image-subSection img {
   width: 100%;
   height: 100%;
 }
 .mission-elements {
-  height: 300px;
+  height: 350px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
 .single-element {
-  width: 25%;
+  width: 28%;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   border: 2px solid green;
 }
 .single-element img {
@@ -94,4 +91,15 @@ section {
 }
 .goals {
   background-color: rgb(160, 133, 160);
+}
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+h2 {
+  font-size: 25px;
+}
+p {
+  font-size: 18px;
 }
