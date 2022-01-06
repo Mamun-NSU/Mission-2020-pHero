@@ -12,10 +12,6 @@ section {
   border: 5px solid green;
   display: flex;
 }
-.equal-subWidth {
-  width: 50%;
-  border: 5px solid red;
-}
 .mission-section {
   height: 250px;
   width: 80%;
@@ -27,12 +23,14 @@ section {
   width: 80%;
   margin: 0 auto;
   border: 5px solid blue;
+  display: flex;
 }
 .community-section {
   height: 250px;
   width: 80%;
   margin: 0 auto;
-  border: 5px solid red;
+  border: 5px solid purple;
+  display: flex;
 }
 .footer-section {
   height: 100px;
@@ -58,4 +56,16 @@ section {
   margin: 0px;
   border-radius: 5px;
   font-weight: 900;
+}
+.text-subSection {
+  width: 60%;
+  border: 5px solid red;
+}
+.image-subSection {
+  width: 40%;
+  border: 5px solid red;
+}
+.image-subSection img {
+  width: 100%;
+  height: 100%;
 }
