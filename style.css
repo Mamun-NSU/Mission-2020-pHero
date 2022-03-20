@@ -1,3 +1,4 @@
+/* remove all padding & margin and set font family */
 body {
   padding: 0;
   margin: 0;
@@ -6,6 +7,7 @@ body {
 section {
   margin-bottom: 30px;
 }
+/* set 400px height and 80% width */
 .banner-section {
   height: 400px;
   width: 80%;
